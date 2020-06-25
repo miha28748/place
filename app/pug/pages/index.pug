@@ -1,0 +1,11 @@
+extends ../layout
+
+block title
+    title Example title
+
+block beforeBody
+    - bodyClasses.push('')
+
+block content
+    +sidebar()
+    +content()

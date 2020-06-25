@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <title>Example title</title>
+    <!-- build:css style.css-->
+    <!-- bower:css-->
+    <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
+    <!-- endbower-->
+    <link rel="stylesheet" href="style.css">
+    <!-- endbuild-->
+  </head>
+  <body class="main-container">
+    <div class="main-container__content">
+      <div class="sidebar">
+        <div class="sidebar__controls-wrapper">
+          <ul class="sidebar__controls-list">
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#home"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#basket"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#helmet"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#rule"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#administration"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#agentservice"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#search"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+          <ul class="sidebar__controls-list">
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#menu"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#contactors"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="sidebar__controls-list-item">
+              <button class="sidebar__button">
+                <svg class="sidebar__icon">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#exit"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+        <div class="sidebar__content-wrapper">
+          <h4 class="sidebar__content-title">ЧЕСТНЫЙ АГЕНТ</h4>
+          <h5 class="sidebar__content-small-title">МЕНЕДЖЕР ПРОГРЕССА</h5>
+          <ul class="sidebar__content-list">
+            <li class="sidebar__content-item">
+              <button class="sidebar__content-button sidebar__content-button_active">
+                <svg class="sidebar__icon sidebar__icon_green">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#calculator"></use>
+                </svg>
+                <h5 class="sidebar__content-list-title">Организации</h5>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="content">
+        <div class="content__top-bar">
+          <button class="content__top-bar-back-button">
+            <svg class="content__top-bar-arrow">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#arrow"></use>
+            </svg>К СПИСКУ ЮРИДИЧЕСКИХ ЛИЦ
+          </button>
+          <div class="content__remove-buttons-wrapper">
+            <button class="content__top-bar-attach-button">
+              <svg class="content__top-bar-icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#chain"></use>
+              </svg>
+            </button>
+            <button class="content__top-bar-refresh-button">
+              <svg class="content__top-bar-icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#history"></use>
+              </svg>
+            </button>
+            <button class="content__top-bar-remove-button">
+              <svg class="content__top-bar-icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#delete"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div class="content__list-title-wrapper">
+          <h2 class="content__list-title">Перспективные захоронения</h2>
+          <button class="content__edit-button">
+            <svg class="content__edit-icon">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#edit"></use>
+            </svg>
+          </button>
+        </div>
+        <ul class="content__list">
+          <li class="content__list-item">
+            <h3 class="content__item-title">ОБЩАЯ ИНФОРМАЦИЯ</h3>
+            <button class="content__edit-button">
+              <svg class="content__edit-icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#edit"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="content__list-item">
+            <ul class="content__daughter-list">
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Полное название:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">ООО Фирма “Перспективные захоронения”</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Договор:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">12345 от 12.03.2015, расторгнут 20.05.2017</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Форма:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">ООО</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Тип:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">Агент, Подрядчик</p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="content__list-item">
+            <h3 class="content__item-title">КОНТАКТНЫЕ ДАННЫЕ</h3>
+            <button class="content__edit-button">
+              <svg class="content__edit-icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#edit"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="content__list-item">
+            <ul class="content__daughter-list">
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">ФИО:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">Григорьев Сергей Петрович</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Телефон:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">+7 (916) 216-55-88</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Эл. почта:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper"><a class="content__daughter-link" href="#">grigoriev@funeral.com</a></div>
+              </li>
+            </ul>
+          </li>
+          <li class="content__list-item">
+            <h3 class="content__item-title">АДРЕСА И ТЕЛЕФОНЫ</h3>
+            <button class="content__edit-button">
+              <svg class="content__edit-icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#edit"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="content__list-item">
+            <ul class="content__daughter-list">
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Юр. адрес:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Юр. телефон:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">+7 (495) 345-55-88</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Фактич. адрес:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Телефон:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">+7 (495) 345-55-88</p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="content__list-item">
+            <h3 class="content__item-title">РЕКВИЗИТЫ ОРГАНИЗАЦИИ</h3>
+            <button class="content__edit-button">
+              <svg class="content__edit-icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#edit"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="content__list-item">
+            <ul class="content__daughter-list">
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">БИК:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">044525225</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Банк:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">ПАО СБЕРБАНК</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Р/С:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">4070 2810 0000 9000 1425</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">К/С:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">3010 1810 5403 0000 0795 БИК 044 030 795</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">ИНН:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">1001254535</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">КПП:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">773101001</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">ОГРН:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">1053600591197</p>
+                </div>
+              </li>
+              <li class="content__daughter-list-item">
+                <div class="content__daughter-title-wrapper">
+                  <h5 class="content__daughter-title">Ген. директор:</h5>
+                </div>
+                <div class="content__daughter-text-wrapper">
+                  <p class="content__daughter-text">Степаненко Игорь Яковлевич</p>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li class="content__list-item">
+            <h3 class="content__item-title">ПРИЛОЖЕННЫЕ ФАЙЛЫ</h3>
+          </li>
+        </ul>
+        <ul class="content__files-list">
+          <li class="content__files-list-item">
+            <svg class="content__icon-file">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#doc"></use>
+            </svg>
+            <div>
+              <h6 class="content__name-file">Договор ЗН 1234-4567.pdf</h6>
+              <h6 class="content__option-file">Файл PDF, 1.2 МБ</h6>
+            </div>
+            <button class="content__delete-file"></button>
+          </li>
+          <li class="content__files-list-item">
+            <svg class="content__icon-file">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#doc"></use>
+            </svg>
+            <div>
+              <h6 class="content__name-file">Фотографии счета на оп...</h6>
+              <h6 class="content__option-file">Файл ZIP, 200 КБ</h6>
+            </div>
+            <button class="content__delete-file"></button>
+          </li>
+          <li class="content__files-list-item">
+            <svg class="content__icon-file">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="images/svg/svg_sprite.svg#doc"></use>
+            </svg>
+            <div>
+              <h6 class="content__name-file">Документы за декабрь.zip</h6>
+              <h6 class="content__option-file">Файл ZIP, 200 КБ</h6>
+            </div>
+            <button class="content__delete-file"></button>
+          </li>
+        </ul>
+        <label class="content__upload-button" for="fileinput">ДОБАВИТЬ ФАЙЛ
+          <input class="content__upload-input" type="file" multiple="multiple" id="fileinput" name="fileinput"/>
+        </label>
+      </div>
+    </div>
+    <div class="popup-delete">
+      <div class="popup-delete__align-wrapper">
+        <div class="popup-delete__main-window">
+          <h3 class="popup-delete__title">Удалить карточку</h3>
+          <h5 class="popup-delete__small-title">Отправить карточку организации в архив?</h5>
+          <div class="popup-delete__buttons-wrapper">
+            <button class="popup-delete__cancel-button">ОТМЕНА</button>
+            <button class="popup-delete__accept-button">УДАЛИТЬ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__container"><small class="footer__text footer__text_style">© 1992 - 2020 Честный Агент © Все права защищены.</small><small class="footer__text footer__text_style">8 (495) 150-21-12</small></div>
+    </footer>
+    <!-- build:js js/main.js-->
+    <!-- bower:js-->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower-->
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="js/main.js"></script>
+    <!-- endbuild-->
+  </body>
+</html>

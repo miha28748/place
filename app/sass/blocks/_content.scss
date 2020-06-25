@@ -1,0 +1,279 @@
+.content{
+	width: 100%;
+	margin-left: 273px;
+	display: flex;
+	flex-direction: column;
+    align-items: flex-start;
+
+	&__top-bar{
+		padding: 0px 40px 0px 40px;
+		height: 81px;
+		display: flex;
+		align-items: center;
+		border-bottom: 1px solid #E5E5E5;
+		justify-content: space-between;
+		position: fixed;
+	    max-width: 1093px;
+	    width: 100%;
+	    background: #fff;
+	}
+
+	&__top-bar-back-button{
+		color: $green;
+		background: inherit;
+		padding: 0px;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+	}
+
+	&__top-bar-arrow{
+		width: 16px;
+		height: 16px;
+		fill: $green;
+		margin-right: 16px;
+	}
+
+	&__top-bar-remove-button,
+	&__top-bar-refresh-button,
+	&__edit-button,
+	&__top-bar-attach-button{
+		background: inherit;
+		padding: 0px;
+		border: none;
+		cursor: pointer;
+	}
+
+	&__top-bar-remove-button,
+	&__top-bar-refresh-button,
+	&__top-bar-attach-button{
+		margin-left: 25px;
+	}
+
+	&__top-bar-icon{
+		height: 24px;
+		width: 24px;
+		fill: $green;		
+	}
+
+	&__top-bar-remove-button svg{
+		fill: #D95151;
+	}
+
+	&__list-title-wrapper{
+		display: flex;
+		margin: 0px 40px;
+		align-items: center;
+		border-bottom: 1px solid #E5E5E5;
+		margin-top: 80px;
+	}
+
+	&__list-title{
+		font-family: $font-family;
+		color: #222222;
+		font-size: 24px;
+		font-weight: normal;
+		margin: 35px 0px 35px 0px;
+	}
+
+	&__edit-icon{
+		width: 20px;
+		height: 20px;
+		fill: $green;
+		margin-left: 15px;
+	}
+
+	&__daughter-list,
+	&__list{
+		list-style-type: none;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	&__daughter-list{
+		width: 100%;
+		border-bottom: 1px solid #E5E5E5;
+		padding-bottom: 15px;
+	}
+
+	&__list{
+		padding: 0px 40px;
+		width: 100%;
+	}
+
+	&__list-item{
+		display: flex;
+		align-items: center;
+	}
+
+	&__item-title{
+		font-family: $font-family;
+		font-size: 18px;
+		font-weight: 300;
+		margin: 35px 0px;
+		color: #3B3B3B;
+	}
+
+	&__daughter-title-wrapper{
+		width: 16%;
+	}
+
+	&__daughter-title{
+		margin: 0px;
+		font-family: $font-family;
+		font-weight: normal;
+		font-size: 16px;
+		color: #808080;
+	}
+
+	&__daughter-text-wrapper{
+		width: 84%;
+	}
+
+	&__daughter-list-item{
+		display: flex;
+		margin-bottom: 15px;
+	}
+
+	&__daughter-link,
+	&__daughter-text{
+		font-family: $font-family;
+		font-weight: normal;
+		font-size: 16px;
+		color: #3B3B3B;
+		margin: 0px;
+	}
+
+	&__daughter-link{
+		color: $green;
+	}
+
+	&__upload-button{
+		padding: 15px 15px 15px 45px;
+		border-radius: 2px;
+		background: $green;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: $font-family;
+		font-weight: normal;
+		font-size: 14px;
+		color: #fff;
+		cursor: pointer;
+		margin-left: 40px;
+		position: relative;
+
+		&:before{
+			position: absolute;
+			content: "+";
+			font-size: 30px;
+			color: #fff;
+			left: 15px;
+		}
+	}
+
+	&__upload-input{
+		width: 0px;
+		height: 0px;
+	}
+
+	&__files-list{
+		list-style-type: none;
+		padding: 0px 0px 0px 40px;
+		margin: 0px 0px 20px 0px;
+	}
+
+	&__files-list-item{
+		display: flex;
+		position: relative;
+		align-items: center;
+		max-width: 200px;
+		margin-bottom: 15px;
+	}
+
+	&__option-file,
+	&__name-file{
+		width: 146px;
+		overflow: hidden;
+		font-family: $font-family;
+		font-weight: normal;
+		font-size: 12px;
+		margin: 0px 0px 5px 0px;
+		color: #343434;
+		white-space: nowrap;
+	}
+
+	&__option-file{
+		color: #D7D7D7;
+		margin-bottom: 0px;
+	}
+
+	&__icon-file{
+		width: 25px;
+		height: 25px;
+		fill: $green;
+		margin-right: 10px;
+	}
+
+    &__delete-file{
+		position: absolute;
+		right: -17px;
+		top: 1px;
+		width: 10px;
+		height: 10px;
+		padding: 0px;
+		background: inherit;
+		border: none;
+		cursor: pointer;
+	}
+
+	&__delete-file:before,
+	&__delete-file:after {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		content: ' ';
+		height: 10px;
+		width: 2px;
+		background-color: #E55740;
+	}
+
+	&__delete-file:before {
+		transform: rotate(45deg);
+	}
+
+	&__delete-file:after {
+		transform: rotate(-45deg);
+	}
+
+	&__upload-button{
+		padding: 15px 15px 15px 45px;
+		border-radius: 2px;
+		background: $green;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: $font-family;
+		font-weight: normal;
+		font-size: 14px;
+		color: #fff;
+		cursor: pointer;
+		margin-left: 40px;
+		position: relative;
+		margin-bottom: 25px;
+
+		&:before{
+			position: absolute;
+			content: "+";
+			font-size: 30px;
+			color: #fff;
+			left: 15px;
+		}
+	}
+
+	&__upload-input{
+		width: 0px;
+		height: 0px;
+	}
+}

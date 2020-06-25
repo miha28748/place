@@ -1,0 +1,175 @@
+mixin content()
+	div.content
+		div.content__top-bar
+			button.content__top-bar-back-button
+				svg.content__top-bar-arrow
+					use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#arrow')
+				| К СПИСКУ ЮРИДИЧЕСКИХ ЛИЦ
+			div.content__remove-buttons-wrapper
+				button.content__top-bar-attach-button
+					svg.content__top-bar-icon
+						use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#chain')
+				button.content__top-bar-refresh-button
+					svg.content__top-bar-icon
+						use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#history')
+				button.content__top-bar-remove-button
+					svg.content__top-bar-icon
+						use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#delete')
+		div.content__list-title-wrapper
+			h2.content__list-title Перспективные захоронения
+			button.content__edit-button
+				svg.content__edit-icon
+					use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#edit')
+		ul.content__list
+			li.content__list-item
+				h3.content__item-title ОБЩАЯ ИНФОРМАЦИЯ
+				button.content__edit-button
+					svg.content__edit-icon
+						use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#edit')
+			li.content__list-item
+				ul.content__daughter-list
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Полное название:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text ООО Фирма “Перспективные захоронения”
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Договор:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text 12345 от 12.03.2015, расторгнут 20.05.2017
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Форма:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text ООО
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Тип:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text Агент, Подрядчик
+			li.content__list-item
+				h3.content__item-title КОНТАКТНЫЕ ДАННЫЕ
+				button.content__edit-button
+					svg.content__edit-icon
+						use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#edit')
+			li.content__list-item
+				ul.content__daughter-list
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title ФИО:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text Григорьев Сергей Петрович
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Телефон:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text +7 (916) 216-55-88
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Эл. почта:
+						div.content__daughter-text-wrapper
+							a(href="#").content__daughter-link grigoriev@funeral.com
+			li.content__list-item
+				h3.content__item-title АДРЕСА И ТЕЛЕФОНЫ
+				button.content__edit-button
+					svg.content__edit-icon
+						use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#edit')
+			li.content__list-item
+				ul.content__daughter-list
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Юр. адрес:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text 105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Юр. телефон:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text +7 (495) 345-55-88
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Фактич. адрес:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text 105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Телефон:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text +7 (495) 345-55-88
+			li.content__list-item
+				h3.content__item-title РЕКВИЗИТЫ ОРГАНИЗАЦИИ
+				button.content__edit-button
+					svg.content__edit-icon
+						use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#edit')
+			li.content__list-item
+				ul.content__daughter-list
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title БИК:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text 044525225
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Банк:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text ПАО СБЕРБАНК
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Р/С:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text 4070 2810 0000 9000 1425
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title К/С:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text 3010 1810 5403 0000 0795 БИК 044 030 795
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title ИНН:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text 1001254535
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title КПП:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text 773101001
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title ОГРН:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text 1053600591197
+					li.content__daughter-list-item
+						div.content__daughter-title-wrapper
+							h5.content__daughter-title Ген. директор:
+						div.content__daughter-text-wrapper
+							p.content__daughter-text Степаненко Игорь Яковлевич
+			li.content__list-item
+				h3.content__item-title ПРИЛОЖЕННЫЕ ФАЙЛЫ
+		ul.content__files-list
+			li.content__files-list-item
+				svg.content__icon-file
+					use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#doc')
+				div
+					h6.content__name-file Договор ЗН 1234-4567.pdf
+					h6.content__option-file Файл PDF, 1.2 МБ
+				button.content__delete-file
+			li.content__files-list-item
+				svg.content__icon-file
+					use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#doc')
+				div
+					h6.content__name-file Фотографии счета на оп...
+					h6.content__option-file Файл ZIP, 200 КБ
+				button.content__delete-file
+			li.content__files-list-item
+				svg.content__icon-file
+					use(xmlns:xlink='http://www.w3.org/1999/xlink', xlink:href='images/svg/svg_sprite.svg#doc')
+				div
+					h6.content__name-file Документы за декабрь.zip
+					h6.content__option-file Файл ZIP, 200 КБ
+				button.content__delete-file
+		label(for="fileinput").content__upload-button
+			|ДОБАВИТЬ ФАЙЛ
+			input(type="file" multiple="multiple" id="fileinput" name="fileinput").content__upload-input
+		
+

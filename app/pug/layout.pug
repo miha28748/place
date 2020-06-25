@@ -1,0 +1,40 @@
+include blocks/_footer
+include blocks/_content
+include blocks/_sidebar
+include blocks/_popup-delete
+
+doctype html
+html(lang='ru')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        meta(name='format-detection' content='telephone=no')
+
+        block title
+            title Starting template
+
+        // build:css style.css
+        // bower:css
+        // endbower
+        link(rel='stylesheet', href='style.css')
+        // endbuild
+    - var bodyClasses = ['main-container'];
+    block beforeBody
+
+    body(class=bodyClasses)
+
+        div.main-container__content
+            block content
+
+        +popup-delete()
+
+        block footer
+            +footer()
+
+        // build:js js/main.js
+        // bower:js
+        // endbower
+        script(src="https://cdn.jsdelivr.net/npm/vue")
+        script(src='js/main.js')
+        // endbuild

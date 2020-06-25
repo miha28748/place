@@ -1,0 +1,66 @@
+/***
+* Assets.
+***/
+@import url('https://use.typekit.net/ggc6cui.css');
+@import "assets/variables";
+@import "assets/grid";
+
+/***
+* Global styles.
+***/
+
+*,
+:after,
+:before,
+input[type=search] {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html,
+.main-container {
+    height: 100%;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__content {
+        display: flex;
+        max-width: 1426px;
+        width: 100%;
+        padding: 0px 30px;
+        margin: 0 auto;
+        background: #fff;
+        position: relative;
+    }
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+
+
+input {opacity:1}
+
+
+
+/***
+* Blocks.
+***/
+
+@import "blocks/footer";
+@import "blocks/sidebar";
+@import "blocks/content";
+@import "blocks/popup-delete";
